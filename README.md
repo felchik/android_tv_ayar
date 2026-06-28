@@ -27,8 +27,16 @@ Bu proje, Android TV ve Google TV cihazlarını yerel ağ üzerinden yönetmek, 
    pip install -r requirements.txt
    ```
 4. Uygulamayı çalıştırın:
+
    ```bash
    python src/main.py
+   ```
+
+   Alternatif olarak paket kurulumundan sonra şu komutla da çalıştırabilirsiniz:
+
+   ```bash
+   pip install -e .
+   android-tv-ayar
    ```
 
 > Windows’ta PyQt6 kurulumundan sonra GUI pencere sistemi hazır olmalıdır. Eğer bir hata alırsanız, önce sanal ortamı yeniden etkinleştirin ve bağımlılıkları tekrar yükleyin.

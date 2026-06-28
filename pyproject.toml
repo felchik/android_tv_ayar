@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "android-tv-ayar"
+version = "0.1.0"
+description = "Android TV and Google TV device manager powered by ADB and PyQt6"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "PyQt6==6.6.1",
+  "pure-python-adb==0.3.0.dev0",
+]
+
+[project.scripts]
+android-tv-ayar = "src.main:main"
+
+[tool.setuptools]
+packages = ["src"]
