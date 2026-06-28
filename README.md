@@ -31,6 +31,8 @@ Bu proje, Android TV ve Google TV cihazlarını yerel ağ üzerinden yönetmek, 
    python src/main.py
    ```
 
+> Windows’ta PyQt6 kurulumundan sonra GUI pencere sistemi hazır olmalıdır. Eğer bir hata alırsanız, önce sanal ortamı yeniden etkinleştirin ve bağımlılıkları tekrar yükleyin.
+
 ## 📦 Gereksinimler
 
 - Python 3.10+
@@ -39,7 +41,7 @@ Bu proje, Android TV ve Google TV cihazlarını yerel ağ üzerinden yönetmek, 
 
 ## 🔐 Not
 
-Bu araç, ADB üzerinden çalışır. TV’nizde ADB erişimi ve cihaz ekranında izin onayı gerekir.
+Bu araç, ADB üzerinden çalışır. TV’nizde ADB erişimi ve cihaz ekranında izin onayı gerekir. Ayrıca bilgisayarınızda ADB araçlarının erişilebilir olması gerekir.
 
 ## 🧪 Doğrulama
 
